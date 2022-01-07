@@ -1,0 +1,91 @@
+<!-- //Latitude - Latitude Analysis Dashboard with Attitude -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+        <div class="navigation-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><b>Latitude Analysis Dashboard with Attitude</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" 
+        aria-expanded="false" aria-label="Toggle">
+        <span class="navbarIcon"></span>
+        
+      </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Fig1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Fig2.html">Humidity</a>
+                        <a class="dropdown-item" href="Fig3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Fig4.html">Wind Speed</a>
+                    </div>
+                </li> 
+                <li class="nav-item active">
+                  <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+          </div>    
+        </nav>
+        </div>
+          <div class="background" style="background-color: rgba(148, 228, 195, 0.705);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+<!-- Create overview of dashboard -->
+        </div class="Container">
+        <section class="row">
+          <div class="col-md-7">
+            <div class="text">
+              <h1 class="title"><b>Summary: Latitude vs. Wind Speed</b></h1>
+              <img src="Resources/assets/images/Fig4.png" alt="Latitude vs Max Temperature" class="image-name">
+              <hr>
+              <p>
+               Wind speed is extremely varied - there's isn't much or a correlation however, it seems that the wind picks up the closer you are to the equator.
+              </p>
+            </div>
+          </div>
+<!-- Create Visualizations Section of Landing Page and link image to seperate HTML -->
+<div class="col-md-5">
+    <section id="leftContainer">
+     <div class="image">
+       <h2 class="title"><b>Visualizations</b></h2>
+       <hr />
+       <div class="middle-container">
+          <div class="row">
+            <div class="col-6"><a href="Fig1.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Maximum Temperature",
+             class="visual" style="width:100%"></a>
+            </div>
+            <div class="col-6"><a href="Fig2.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity",
+             class="visual" style="width:100%"></a>
+            </div>
+            <div class="col-6"><a href="Fig3.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness",
+             class="visual" style="width:100%"></a>
+            </div>
+            <div class="col-6"><a href="index.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed",
+             class="visual" style="width:100%"></a>
+            </div>
+          </div>
+       </div>
+     </div>
+    </section>
+   </div>
+
+<!-- Sources -->
+ <script> src="https://code.jquery.com/jquery-3.3.1.slim.min.js" </script>
+ <script> src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"</script>
+ <script> src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"</script>
+
+</body>
+
+</html>
